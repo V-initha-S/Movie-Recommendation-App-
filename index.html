@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html" class="active">HOME</a>
+        <a href="movie.html">Movie Site</a>
+        <a href="sign.html">Sign In</a>
+        <div class="search-container">
+            <form id="searchForm">
+                <input type="search" id="query" placeholder="Search for movies..." name="q" required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+    <!-- Carousel Section -->
+    <section class="carousel-section">
+        <h1>Featured Tamil Movies</h1>
+        <div class="carousel">
+            <div class="carousel-track">
+                <div class="card" style="background-image: url('k.jpg');">
+                    <h3>KANGUVA</h3>
+                </div>
+                <div class="card" style="background-image: url('amaran.jpg');">
+                    <h3>AMARAN</h3>
+                </div>
+                <div class="card" style="background-image: url('black.jpg');">
+                    <h3>BLACk</h3>
+                </div>
+                <div class="card" style="background-image: url('brother.jpg');">
+                    <h3>BROTHER</h3>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-buttons">
+            <button id="prev-btn">&lt;</button>
+            <button id="next-btn">&gt;</button>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
